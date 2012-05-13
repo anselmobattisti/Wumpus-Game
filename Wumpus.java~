@@ -13,7 +13,7 @@ class Wumpus {
 		cenario.setHeroi(heroi);
 
 		int direcao = -1;
-		cenario.desenharCenario(cenario.getCenario());
+		cenario.desenharCenario(cenario.getItens());
 		
 		// 0 - sair 8 - andar norte 2 - andar sul 4 - andar 6 - andar oeste 5 - atirar
 		while(direcao != 0 && !heroi.estaVivo()){
